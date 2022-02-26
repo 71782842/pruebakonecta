@@ -1,0 +1,13 @@
+Ejercicio realizado para ser ejecutado como WebService
+Las peticiones se deben hacer desde cliente REST como Postman
+Servidor de bases de datos H2 en memoria
+Hace los metodos CRUD sin validaciones
+Pendiente consulta número 2
+
+Puntos de Acceso
+=====================
+/producto GET ArrayList
+/producto POST {producto}
+/producto DELETE {producto}
+
+/ventas POST {producto_id, cant}
